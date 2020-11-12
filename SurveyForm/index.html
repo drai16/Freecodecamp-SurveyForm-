@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header>
+      <h1 id="title">Music Survey Form</h1> 
+      <p id="description">Thank you for taking your time to take this survey</p> 
+      </header>
+     <form id="survey-form"> 
+       <div class="form-control"> 
+         <label for="name" id="name-label">Name</label> 
+         <input type="text" name="name" id="name" placeholder="Enter your name" required class="form-input"> 
+       </div> 
+       <div>
+         <label for="email" id="email-label">Email</label> 
+         <input type="email" name="email" id="email" placeholder="Enter your email" required class="form-input"> 
+       </div> 
+       <div class="form-control"> 
+         <label for="number" id="number-label">Age</label>
+         <input type="number" name="number" id="number" min="18" max="65"  placeholder="Age" required class="form-input"> 
+       </div> 
+       
+       <div class="form-control"> 
+         <label for="dropdown">Select your favorite Type of Music</label>
+          <select id="dropdown">
+            <option value="rap">Rap</option>
+            <option value="pop">Pop</option>
+            <option value="country">Country</option>
+            <option value="Hip-hop">Hip-hop</option>
+            <option value="other">Other</option> 
+         </select>
+         
+        <div class="form-control"> 
+          <p>Select How often Do you Listen to Music</p>
+          <label> 
+            <input type="radio" name="music" id="listen-music" value="1hour">1 hour</label> 
+         </div> 
+         <div class="form-control"> 
+          <label> 
+            <input type="radio" name="music" id="listen-music" value="2hour"> 2 hours</label> 
+         </div>
+         
+         <div class="form-control"> 
+          <label> 
+            <input type="radio" name="music" id="listen-music" value="4hours"> 4 hours</label> 
+         </div>
+          <div class="form-control"> 
+           <p>Select your primrary source for discovering new release by new artists.</p>
+           <label for="checkbox">
+             <input type="checkbox" name="checkbox" value="twitter">Twitter
+           </label> 
+         </div>
+         <div class="form-control"> 
+         <label for="checkbox">
+           <input type="checkbox" name="checkbox" id="checkbox" value="itune-music">iTune Music
+         </label> 
+         </div>
+         <div class="form-control"> 
+         <label for="checkbox">
+           <input type="checkbox" name="checkbox" id="checkbox" value="youtube">Youtube
+         </label> 
+         </div>
+         <div class="form-control"> 
+           <label for="checkbox"> 
+             <input type="checkbox" name="checkbox" id="checkbox" value="social-media">Social Media
+           </label> 
+           
+          <div class="form-control"> 
+            <label id="textarea">Any Comment or Suggestion: </label> 
+            <textarea id="textarea" name="comment" 
+                      rows="5" cols="59.5"> 
+            </textarea> 
+           </div> 
+           
+        <div class="form-control"> 
+          <input id="submit" type="submit" value="Submit" class="submit-button">
+           </div> 
+        
+           </form> 
+
+
+
+
+  </form>
+
+    
+
+</body>
+</html>

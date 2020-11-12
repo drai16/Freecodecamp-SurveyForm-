@@ -1,0 +1,54 @@
+@import "http://fonts.googleapis.com/css?family=Ubuntu";
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+
+
+body {
+  background: rgb(153, 102, 0);
+  font-family: 'Poppins', sans-serif;
+}
+header, h1{
+  text-align: center; 
+}
+
+
+form {
+  max-width: 500px;
+  margin: 2rem auto; 
+  border: 2px solid auto; 
+  background: white; 
+  padding: 25px; 
+  border-radius: 5%;
+}
+
+label {
+  display: block; 
+  padding: 1rem 0 .25rem; 
+  font-size: 16px; 
+
+  
+}
+
+.form-input {
+  width: 100%;
+  padding: .5rem 0 .25rem; 
+  border: 1px solid; 
+  
+}
+
+.form-input ::placeholder{
+  padding: 1rem; 
+}
+
+
+  
+  @media only screen and (max-width: 800px) 
+  {
+    form{
+      width: auto; 
+      height: auto; 
+    }
+  }
+
+
+
